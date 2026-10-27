@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#09091c"><meta name="description" content="一座收藏自我、灵感与心愿的数字宇宙。"><title>我的数字宇宙 · My Little Universe</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body>
+<canvas id="stars" aria-hidden="true"></canvas><div class="nebula" aria-hidden="true"></div>
+<header><a class="brand" href="#home"><span class="brand-symbol">✧</span> ZILIN'S SPACE</a><nav aria-label="主导航"><a href="#explore">探索宇宙 <span>↗</span></a><button id="motion" aria-pressed="false" aria-label="暂停星空动画">暂停星空 ◌</button></nav></header>
+<main id="home"><section class="hero"><div class="eyebrow"><i></i> A SMALL SPACE, AN INFINITE WORLD</div><h1>我的数字<span>宇宙</span><em>My little universe.</em></h1><p class="intro">把生活的碎片，装进星河里。<br>这里有关于我的故事、偶然闪现的灵感，和正在发光的梦。</p><a class="explore-link" href="#explore">开始漫游 <span>↓</span></a><div class="planet-scene" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="planet"></div><span class="moon"></span><span class="planet-label">YOU ARE HERE <b>✧</b></span></div><div class="coordinates" aria-hidden="true">EST. 2026<br>∞ POSSIBILITIES</div></section>
+<section class="exploration" id="explore"><div class="section-label"><span>01 / 探索我的世界</span><span>每一颗星，都有自己的故事</span></div><div class="cards">
+<button class="card violet" data-dialog="about"><span class="card-top">PLANET 01 <span>↗</span></span><span class="card-art art-orbit"><i></i></span><span class="card-en">THE EXPLORER</span><strong>关于我</strong><span class="card-desc">一个普通的人，一个不普通的小宇宙。</span><span class="card-bottom">认识这位宇宙居民 <b>＋</b></span></button>
+<button class="card blue" data-dialog="inspiration"><span class="card-top">PLANET 02 <span>↗</span></span><span class="card-art art-spark">✧<i>✦</i></span><span class="card-en">LITTLE SPARKS</span><strong>灵感碎片</strong><span class="card-desc">收集一闪而过的念头，让好奇心有处着陆。</span><span class="card-bottom">拾起一束微光 <b>＋</b></span></button>
+<button class="card pink" data-dialog="wishes"><span class="card-top">PLANET 03 <span>↗</span></span><span class="card-art art-world"><i></i></span><span class="card-en">SOMEWHERE, SOMEDAY</span><strong>未来来信</strong><span class="card-desc">把愿望寄给未来，等时间带来回音。</span><span class="card-bottom">写下一个小小的心愿 <b>＋</b></span></button>
+</div></section><div class="quote"><span>“</span>宇宙很大，而你本就闪耀。<small>A little curiosity goes a long way.</small></div></main>
+<footer><span>© 2026 我的数字宇宙 <i>·</i> Made of curiosity & stardust</span><button id="secret" aria-label="一颗有秘密的星星">✦</button><span class="footer-note">保持好奇，继续闪光 <span>✧</span></span></footer>
+<dialog id="content-dialog" aria-labelledby="dialog-title"><button class="close" aria-label="关闭内容">×</button><div id="dialog-body"></div></dialog><div id="toast" role="status"></div>
+</body></html>
